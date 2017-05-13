@@ -1,0 +1,8 @@
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/bin/Debug/netcoreapp1.1/CheckLinksConsole.deps.json
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/bin/Debug/netcoreapp1.1/CheckLinksConsole.runtimeconfig.json
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/bin/Debug/netcoreapp1.1/CheckLinksConsole.runtimeconfig.dev.json
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/obj/Debug/netcoreapp1.1/CheckLinksConsole.AssemblyInfo.cs
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/bin/Debug/netcoreapp1.1/CheckLinksConsole.dll
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/bin/Debug/netcoreapp1.1/CheckLinksConsole.pdb
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/obj/Debug/netcoreapp1.1/CheckLinksConsole.dll
+/Users/eric/Desktop/C# fundamentals/CheckLinksConsole/obj/Debug/netcoreapp1.1/CheckLinksConsole.pdb
