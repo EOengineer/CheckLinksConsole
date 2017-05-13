@@ -1,0 +1,9 @@
+2017-05-13T16:32:29.5755440-04:00  [INF] Saving file to /Users/eric/Desktop/C# fundamentals/CheckLinksConsole/reports1/file.txt (9d0d6bbd)
+2017-05-13T17:04:04.5969290-04:00  [INF] Saving file to /Users/eric/Desktop/C# fundamentals/CheckLinksConsole/reports1/file.txt (9d0d6bbd)
+2017-05-13T17:04:04.8385230-04:00  [DBG] This is a test page for link checking for my courses<br>
+
+<a href="http://missingsite387587b3e49b3a90.com">http://missingsite387587b3e49b3a90.com - Missing Site</a><br>
+<a href="https://g0t4.github.io/pluralsight-dotnet-core-xplat-apps/invalid">https://g0t4.github.io/pluralsight-dotnet-core-xplat-apps/invalid - 404 Not Found</a><br>
+<a href="http://weshigbee.com">http://weshigbee.com - Valid Page</a><br>
+ (04cb4057)
+2017-05-13T17:04:04.9096870-04:00  [VRB] http://missingsite387587b3e49b3a90.com,https://g0t4.github.io/pluralsight-dotnet-core-xplat-apps/invalid,http://weshigbee.com (c2531cbe)
