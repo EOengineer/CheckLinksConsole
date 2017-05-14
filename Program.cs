@@ -32,12 +32,16 @@ namespace CheckLinksConsole
             // File.WriteAllLines(outputPath, links);
             var checkedLinks = LinkChecker.CheckLinks(links);
             using (var file = File.CreateText(config.Output.GetReportFilePath()))
+            using (var linksDb = new LinksDb())
             // using is like a try block, allows the system to drop the connection if something does wrong
-            foreach (var link in checkedLinks.OrderBy(l => l.IsMissing))
             {
-                var status = link.IsMissing ? "missing" : "ok";
-
-                file.WriteLine($"{status} - {link.Link}");
+                foreach (var link in checkedLinks.OrderBy(l => l.IsMissing))
+                {
+                    var status = link.IsMissing ? "missing" : "ok";
+                    file.WriteLine($"{status} - {link.Link}");
+                    linksDb.Links.Add(link);
+                }
+                linksDb.SaveChanges();
             }
         }
     }
